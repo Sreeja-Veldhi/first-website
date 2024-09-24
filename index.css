@@ -1,0 +1,364 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+  
+    scroll-behavior: smooth;
+
+  
+}
+.nav{
+    
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px black;
+    position: fixed; 
+    top: 0;
+    background-color: #ffff;
+    z-index: 200;
+    width: 100%;
+
+
+}
+
+ .logo {
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    width: 600px;
+ 
+}
+.nav .logo a{
+    text-decoration: none;
+    color: black;
+}
+.nav .logo a:hover{
+    padding: 10px 0px;
+    border-bottom: 3px solid black;
+    color:brown;
+}
+.nav .icon{
+    width: 270px;
+
+}
+
+.icon a i{
+    padding:  0px 10px ;
+   
+}
+
+.icon a{
+    text-decoration: none;
+    color: black;
+  
+
+}
+
+
+
+.nav .icon a:hover{
+    border-bottom: 3px solid black;
+    color:brown;
+    padding: 10px 0px;
+
+}
+
+.section2 img{
+   width: 100%;
+    height: 250px;
+}
+ .card .section3 {
+   display: flex;
+   flex-direction: column;
+  
+ width: 300px;
+
+ 
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.card .section3 div{
+    padding: 10px;
+}
+
+
+.card {
+    display: flex;
+  
+    background-color: rgb(248, 246, 243);
+    
+   justify-content: space-around;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    box-shadow: 0 8px 6px -6px rgb(181, 168, 168);
+}
+.catalog{
+    background-color: rgb(239, 239, 209);
+margin-top: 20px;
+  
+  
+}
+.catalog .font{
+    font-size: 40px;
+    color: rgb(114, 117, 114);
+    font-family: "Big Shoulders Inline Text", sans-serif;
+    font-style: normal;
+  }
+
+.section4{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+background-color: rgb(239, 239, 209);
+display: flex;
+gap: 5px;
+overflow: scroll;
+padding: 20px 0px;
+
+}
+
+.section4 .cards{
+
+
+width: 160px;
+height: 180px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+box-sizing: border-box;
+background-color: white;
+text-align: center;
+padding: 20px;
+border-radius: 10%;
+
+
+}
+.section5{
+    padding: 20px;
+    
+
+
+display: flex;
+justify-content: space-between;
+
+}
+.section5 a{
+    text-decoration: none;
+    color: #ffff;
+    font-family: "Handjet", sans-serif;
+}
+.section5 a:hover{
+    color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+ .view{
+    font-family:  "Protest Guerrilla", sans-serif;
+    font-size: 20px;
+
+  }
+
+.section6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section5 a{
+    font-size: 20px;
+}
+ #bhavya{
+    background-color: rgb(141, 139, 139);
+   
+}
+.section6  .column{
+    padding: 0px 50px;
+}
+   
+.section6 .column{
+        display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 300px;
+height: 200px;
+color: #ffff;
+
+
+    }
+    .column .flex{
+        display: flex;
+       justify-content: space-between;
+        
+    }
+    .flex i{
+        padding: 5px 20px;
+        cursor: pointer;
+    
+
+    }
+.flex button{
+    
+    border: 1px solid transparent ;
+    border-radius: 5px;
+    width: 80px;
+ 
+}
+.flex button:hover{
+background-color: transparent;
+}
+.section7{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(113, 105, 105);
+    color: #ffff;
+    height: 400px;
+   padding: 20px 0px;
+   margin-top: 2rem;
+   
+}
+.section7 .pic .center{
+    display: flex;
+    justify-content: center;
+}
+.section7 .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+    padding: 0px 20px;
+    gap: 15px;
+    color: rgb(206, 205, 203);
+    
+
+}
+.section7 .row .pet{
+    font-family: "Edu SA Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+ .section7 .row .flex1{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+    .flex1 i{
+        padding: 5px 20px;
+        
+
+        cursor: pointer;
+    
+
+    }
+.flex1 button{
+    
+    border: 1px solid transparent ;
+    border-radius: 5px;
+ width: 80px;
+}
+.flex1 button:hover{
+background-color: transparent;
+}
+/* section8 */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.section8{
+    height: 700px;
+    margin-top: 2rem;
+}
+.section8 .position{
+    position: relative;
+top: -700px;
+    padding: 32px 32px 0px;
+
+    font-family: "Oswald", sans-serif;
+    color: rgb(104, 103, 101);
+}
+.section8 .position button{
+    color: rgb(104, 103, 101);
+}
+
+.bot{
+    padding: 10px ;
+    background-color:transparent;
+    border: 1px solid ;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+ .bot:hover{
+background-color: rgb(214, 214, 212);
+cursor: pointer;
+
+}
+/* section9 */
+
+.section9{
+    background-color:  rgb(113, 105, 105);
+    height: 550px;
+}
+
+.part  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+  float: left;
+  margin: 30px;
+ 
+
+   
+}
+.part .part2 .icon {
+    display: flex;
+    justify-content: space-between;
+  
+   
+}
+
+
+
+.part .part2 i{
+    color: #ffff;
+font-size: 30px;
+
+}
+  .part .right{
+    position: relative;
+   bottom:120px;
+right: -1000px;
+    
+}
+.section9 .tin{
+ padding-top: 300px;
+text-align: center;
+ color: #ffff;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.section9 .parent .eco{
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+ gap: 10px;
+ 
+}
+.section9 .parent .eco a{
+    text-decoration: none;
+  color: #ffff;
+  font-size: 15px;
+}
+.section9 .parent{
+    margin: 40px 0px 0px;
+display: flex;
+justify-content: space-around;
+}
+ .e4 i {
+padding: 10px ;
+
+}
